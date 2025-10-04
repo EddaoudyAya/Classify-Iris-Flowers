@@ -15,25 +15,11 @@ The goal is to predict the species of an iris flower based on these features.
 
 ---
 
-## ⚙️ Features
-- Data exploration & visualization (histograms, scatter plots, pair plots).  
-- Preprocessing and feature engineering.  
-- Training and evaluation of machine learning models (e.g., Logistic Regression, SVM, Decision Tree, KNN, Random Forest).  
-- Model comparison with accuracy scores and confusion matrices.  
+## 📊 Data Source
+The dataset is publicly available from the **UCI Machine Learning Repository**:  
+[https://archive.ics.uci.edu/ml/datasets/iris](https://archive.ics.uci.edu/ml/datasets/iris)  
 
----
-
-## 🛠️ Technologies Used
-- **Python 3.x**  
-- **Jupyter Notebook**  
-- **Pandas & NumPy** (data handling)  
-- **Matplotlib & Seaborn** (visualization)  
-- **Scikit-learn** (machine learning models & evaluation)  
-
----
-
-## 🚀 How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/iris-flowers-classification.git
-   cd iris-flowers-classification
+It is also included with **Scikit-learn** for easy loading:
+```python
+from sklearn.datasets import load_iris
+iris = load_iris()
